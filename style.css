@@ -1,4 +1,144 @@
+body{
+    margin:0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img{
+    width: 100%;
+}
+section{
+    height: 550px;
+}
+.header-area{
+    margin-bottom: 50px;
+}
+.header-text{
+    margin-top: 100px;
+}
+.header-image img{
+    margin-top: 50px;;
+}
 h1{
+    font-size: 50px;
+    color:black;
+    text-transform: uppercase;
+}
+
+.text-orange{
+    color:orange;
+}
+.half-width{
+    width:40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float:left;
+
+}
+.half-width img{
+    width: 100%;
+}
+.header-text p{
+    margin-bottom:45px;
+}
+.button {
+	background-color: orange;
+	padding: 15px 30px;
+	text-decoration: none;
+	border-radius: 5px;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+.about-area{
+    
+}
+.about-area img{
+    max-width: 100%;
+}
+.about-text{
+    margin-top: 100px;
+}
+.about-text h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;;
+
+}
+.about-text p{
+    margin-bottom: 45px;;
+}
+.portfolio{
+    background-color: #D8DBE0;
+    padding: 100px 0px;
+}
+.portfolio h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.project h3{
+    margin-top: 20px;
     font-size: 20px;
-    color:aquamarine;
+}
+
+.projects-container{
+    margin :100px 100px;
+}
+.project{
+    width: 28%;
+    margin-right: 2%;
+    float: left;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #aaaaaa;
+}
+.footer-area{
+    height: 300px;
+    padding:100px 0px;
+}
+.full-width{
+    
+}
+.chat-form{
+    
+    height:200px;
+    background-image:url(images/chat_bg.png) ;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.chat-headline h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 77px 0px 0px 110px;
+    color:white;
+}
+.chat-button{
+    margin: 86px 0px 0px 110px;
+}
+.chat-button a{
+    background-color: orange;
+	padding: 15px 30px;
+	text-decoration: none;
+	border-radius: 5px;
+	color: white;
+}
+.social-connection{
+    text-align: center;
+    margin-top: 50px;
+}
+.social-connection h3{
+    margin: 15px 0px;
+    font-size: 30px;
+}
+.social-icons img{
+    width:30px;
+    height: 30px;
 }
